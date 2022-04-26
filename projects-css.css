@@ -1,0 +1,96 @@
+html {
+  background-image: url(/images/background.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+}
+div {
+  display: block;
+}
+a {
+  position: relative;
+  text-align: center;
+  margin: 30px;
+}
+.show-box {
+  width: 30vw;
+  height: 80vh;
+  border: 4px ridge #d8d8d8;
+  position: absolute !important;
+  top: 14vh;
+  left: 15vw;
+  z-index: 11000;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: center;
+  background-color: #fff;
+  text-align: left;
+}
+.show-box-2 {
+  width: 30vw;
+  height: 80vh;
+  border: 4px ridge #d8d8d8;
+  position: absolute !important;
+  top: 30vh;
+  left: 55vw;
+  z-index: 11000;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: center;
+  background-color: #fff;
+  text-align: left;
+}
+.show-box-3 {
+  width: 22vw;
+  height: 80vh;
+  border: 4px ridge #d8d8d8;
+  position: absolute !important;
+  top: 120vh;
+  left: 28vw;
+  z-index: 11000;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: center;
+  background-color: #fff;
+  text-align: left;
+}
+.header-wrapper {
+  padding: 2px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(51, 78, 165, 1) 0%,
+    rgba(76, 127, 193, 1) 100%
+  );
+}
+.header-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.75vw;
+  font-weight: bold;
+  line-height: 1.2vw;
+  color: #fff;
+  width: calc(100% - 120px);
+  float: left;
+  text-align: left;
+}
+.show-content {
+  height: 80vh;
+  overflow: scroll;
+}
+img {
+  width: 100%;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.75vw;
+  font-weight: bold;
+  line-height: 1.2vw;
+  color: black;
+  width: calc(100% - 120px);
+  float: left;
+  text-align: left;
+}

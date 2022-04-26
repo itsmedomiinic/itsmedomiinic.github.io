@@ -1,0 +1,52 @@
+html {
+  background-image: url(/images/background.gif);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+div {
+  display: block;
+}
+a {
+  position: relative;
+  text-align: center;
+  margin: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+}
+.homeMenu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.buttonText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  color: white;
+  text-decoration: none;
+}
+.logoContainer {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.logo {
+  width: 200px;
+  border-radius: 100px;
+}

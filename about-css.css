@@ -1,0 +1,64 @@
+body {
+  background-image: url(/images/background.gif);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+div {
+  display: block;
+}
+a {
+  position: relative;
+  text-align: center;
+  margin: 30px;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+}
+.logoContainer {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.logo {
+  width: 200px;
+  border-radius: 100px;
+}
+.about {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 900%;
+  color: white;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  color: white;
+  text-align: justify;
+}
+.buttonText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  color: white;
+  text-decoration: none;
+}
