@@ -20,9 +20,9 @@ div {
   z-index: 11000;
   padding-top: 0;
   padding-bottom: 0;
-  text-align: center;
   background-color: #fff;
   text-align: left;
+  overflow: hidden;
 }
 .show-box-2 {
   width: 30vw;
@@ -34,9 +34,9 @@ div {
   z-index: 11000;
   padding-top: 0;
   padding-bottom: 0;
-  text-align: center;
   background-color: #fff;
   text-align: left;
+  overflow: hidden;
 }
 .show-box-3 {
   width: 22vw;
@@ -48,9 +48,9 @@ div {
   z-index: 11000;
   padding-top: 0;
   padding-bottom: 0;
-  text-align: center;
   background-color: #fff;
   text-align: left;
+  overflow: hidden;
 }
 .header-wrapper {
   padding: 2px;
@@ -139,7 +139,6 @@ img {
   line-height: 25px;
 }
 .show-content{
-  height: 78vh;
   width: 100%;
   overflow: scroll;
   overflow-x: hidden;
