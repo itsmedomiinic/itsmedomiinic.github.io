@@ -4,6 +4,7 @@ html {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  scroll-behavior: smooth;
   height: 100%;
 }
 div {
@@ -11,12 +12,12 @@ div {
 }
 
 .show-box-1 {
-  width: 30vw;
+  width: 37vw;
   height: 80vh;
   border: 4px ridge #d8d8d8;
   position: absolute !important;
-  top: 14vh;
-  left: 15vw;
+  top: 15vh;
+  left: 12vw;
   z-index: 11000;
   padding-top: 0;
   padding-bottom: 0;
@@ -30,7 +31,7 @@ div {
   border: 4px ridge #d8d8d8;
   position: absolute !important;
   top: 30vh;
-  left: 55vw;
+  left: 60vw;
   z-index: 11000;
   padding-top: 0;
   padding-bottom: 0;
@@ -39,12 +40,26 @@ div {
   overflow: hidden;
 }
 .show-box-3 {
-  width: 22vw;
+  width: 33vw;
   height: 80vh;
   border: 4px ridge #d8d8d8;
   position: absolute !important;
   top: 120vh;
-  left: 28vw;
+  left: 7vw;
+  z-index: 11000;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: #fff;
+  text-align: left;
+  overflow: hidden;
+}
+.show-box-4 {
+  width: 34vw;
+  height: 80vh;
+  border: 4px ridge #d8d8d8;
+  position: absolute !important;
+  top: 125vh;
+  left: 51vw;
   z-index: 11000;
   padding-top: 0;
   padding-bottom: 0;
@@ -85,9 +100,9 @@ img {
 .show-text {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.75vw;
-  font-weight: bold;
+  /*font-weight: bold;*/
   line-height: 1.2vw;
-  color: black;
+  color: rgb(71, 70, 70);
   width: calc(100% - 120px);
   float: left;
   text-align: left;
@@ -127,6 +142,17 @@ img {
     width: calc(100% - 20px);
     margin-left: 10px;
     margin-bottom: 10px;
+}
+.show-box-4 {
+  position: inherit !important;
+  display: block;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: center;
+  background-color: #fff;
+  width: calc(100% - 20px);
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 .header-wrapper{
   padding: 2px;
